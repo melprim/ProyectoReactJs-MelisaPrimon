@@ -1,0 +1,26 @@
+.contador {
+    text-align: center;
+    background-color: #DCD4C9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 15px;
+    margin-top: 1rem;
+}
+
+.controles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-bottom: 1rem ;
+    align-items: center;
+
+}
+
+.numeroContador {
+    border: 1px solid #212529;
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 0;
+}

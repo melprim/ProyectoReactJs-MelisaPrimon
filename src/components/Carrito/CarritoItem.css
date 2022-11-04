@@ -1,0 +1,22 @@
+.contenedorItemCarrito{
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    gap: 2rem;
+    margin: 2rem 0;
+    padding: 10px;
+    border: 2px solid #f7b6c7;
+    box-shadow: 0px 2px 10px #af9da2;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.imagenItem{
+    width: 100px;
+    align-items: center;
+}
+
+.contenedorPrecioCantidad{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: start;
+}

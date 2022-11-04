@@ -1,0 +1,35 @@
+.contenedorForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+    border: 2px solid #f7b6c7;
+    box-shadow: 0px 2px 10px #af9da2;
+    border-radius: 12px;
+}
+input{
+    height: 50px;
+    background-color: white;
+    border: 2px solid #f7b6c7;
+    border-radius: 5px;
+    color: black;
+    padding-left: 10px;
+}
+
+/*para eliminar flechas en input number*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}

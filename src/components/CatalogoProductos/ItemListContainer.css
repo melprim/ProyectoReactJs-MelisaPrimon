@@ -1,0 +1,23 @@
+.tituloPrincipal {
+    margin: 3rem 0 5rem;
+    text-align: center;
+    font-family: 'Amatic SC',
+    cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.contenedorProductos {
+    margin: 50px 50px;
+}
+
+.listaProductos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+
